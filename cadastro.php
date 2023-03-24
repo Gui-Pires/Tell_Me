@@ -1,5 +1,5 @@
 <?php
-include('main.php');
+include('index.php');
 ?>
 <div class="container">
 	<div class="row">

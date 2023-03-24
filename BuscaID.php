@@ -1,5 +1,5 @@
 <?php
-include('main.php');
+include('index.php');
 $_SESSION['pg'] = $_SESSION['att'];
 ?>
 <div class="container">

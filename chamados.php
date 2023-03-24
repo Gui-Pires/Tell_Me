@@ -1,5 +1,5 @@
 <?php
-include('main.php');
+include('index.php');
 $_SESSION['pg'] = "chamados.php";
 $_SESSION['att'] = "chamados.php";
 ?>

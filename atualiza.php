@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set("America/Sao_Paulo");
-include('main.php');
+include('index.php');
 require('connect.php');
 $id = $_GET['idChamado'];
 $chamados = mysqli_query($con, "Call vFiltro_id('$id')");

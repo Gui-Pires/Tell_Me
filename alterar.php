@@ -1,5 +1,5 @@
 <?php
-include('main.php');
+include('index.php');
 $id = $_GET['pUser'];
 require('connect.php');
 $users = mysqli_query($con, "Call vPerfil_user('$id')");
